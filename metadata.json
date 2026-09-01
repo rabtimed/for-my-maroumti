@@ -1,0 +1,6 @@
+{
+  "name": "For My Maroumti",
+  "description": "An interactive romantic apology experience and love letter for Maroumti.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
