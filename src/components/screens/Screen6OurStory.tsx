@@ -32,7 +32,7 @@ const DEFAULT_MEMORIES: Memory[] = [
     title: 'The beginning',
     description:
       'One simple message. One ordinary moment. Neither of us knew that it would become the beginning of something so important.',
-    image: '/assets/images/story-01.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/story-01.jpg`,
   },
 
   {
@@ -41,7 +41,8 @@ const DEFAULT_MEMORIES: Memory[] = [
     title: 'The little things',
     description:
       'The random conversations, the laughs, the little moments that seemed simple at the time... but slowly became my favorite parts of the day.',
-    image: '/assets/images/story-02.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/story-02.jpg`,
+
   },
 
   {
@@ -50,7 +51,8 @@ const DEFAULT_MEMORIES: Memory[] = [
     title: 'Just us',
     description:
       'Somewhere along the way, it stopped being about two people simply talking. It became our little world.',
-    image: '/assets/images/story-03.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/story-03.jpg`,
+
   },
 
   {
@@ -59,7 +61,8 @@ const DEFAULT_MEMORIES: Memory[] = [
     title: 'The moments I keep',
     description:
       'There are moments I could explain with a thousand words. And there are moments where one picture says everything.',
-    image: '/assets/images/story-04.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/story-04.jpg`,
+
   },
 
   {
@@ -68,7 +71,8 @@ const DEFAULT_MEMORIES: Memory[] = [
     title: 'Still my favorite story',
     description:
       'Looking back at everything we lived, I realize how many beautiful little memories became part of my heart.',
-    image: '/assets/images/story-05.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/story-05.jpg`,
+
   },
 ];
 

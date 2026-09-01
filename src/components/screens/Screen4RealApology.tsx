@@ -100,7 +100,7 @@ export const Screen4RealApology: React.FC<Screen4RealApologyProps> = ({
           >
             <div className="relative max-w-xs w-full rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.6)] border border-white/10">
               <img
-                src="/assets/images/apology.jpg"
+                src={`${import.meta.env.BASE_URL}assets/images/apology.jpg`}
                 alt="A heartfelt moment"
                 className="w-full h-auto object-cover aspect-[4/3]"
                 onError={() => setImgError(true)}

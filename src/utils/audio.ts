@@ -5,7 +5,7 @@ class SoundManager {
 
   constructor() {
     if (typeof window !== 'undefined') {
-      this.music = new Audio('/assets/music/no_promises.mp3');
+      this.music = new Audio(`${import.meta.env.BASE_URL}assets/music/no_promises.mp3`);
 
       this.music.loop = true;
       this.music.volume = 0.35;

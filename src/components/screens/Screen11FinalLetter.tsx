@@ -182,7 +182,7 @@ export const Screen11FinalLetter: React.FC<Screen11FinalLetterProps> = ({
 
             <div className="relative overflow-hidden rounded-[1.5rem] border border-white/[0.08] bg-[#120407] shadow-[0_25px_80px_rgba(0,0,0,0.65)]">
               <img
-                src="/assets/images/final_lettre.jpg"
+                src={`${import.meta.env.BASE_URL}assets/images/final_lettre.jpg`}
                 alt="A special memory"
                 onError={() => setImgError(true)}
                 className="block w-full h-auto max-h-[62vh] object-contain brightness-[0.92]"
